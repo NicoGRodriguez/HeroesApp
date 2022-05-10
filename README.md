@@ -2,26 +2,52 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
-## Development server
+Este es un breve listado de los temas fundamentales:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1-Rutas Hijas
 
-## Code scaffolding
+2-Rutas Principales
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3-LazyLoad
 
-## Build
+4-Multiples estilos en la misma SPA
+Angular Material
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+5-Interfaces y tipado
 
-## Running unit tests
+6-Pipes personalizados
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+7-Variables de entorno
 
-## Running end-to-end tests
+8-Autocomplete de AngularMaterial
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+9-Peticiones HTTP
 
-## Further help
+10-JSON-Server
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+11-Angular Flex y Flexbox
+
+Esta sección tiene por objetivo principal aprender a utilizar Angular Material, es la primera de varias secciones donde lo usaremos. Al final del día trabajaremos con muchos componentes de Angular material que les ayudará a ver cualquier otro tipo de paquete modularizado de la misma manera y ustedes sabrán aplicarlo.
+
+En la siguiente sección después de esta, continuaremos la aplicación pero realizaremos un CRUD.
+Este es un breve listado de los temas fundamentales:
+
+12-CRUD
+
+12.A-Create
+
+12.B-Read
+
+12.c-Update
+
+12.d-Delete
+
+13-Pipes puros e impuros
+
+14-Snacks
+
+15-Dialogs
+
+16-Inyección de servicios manualmente
+
+Esta sección les dará las bases para poder realizar CRUD completos hacia cualquier backend basado en servicios web, mediante comunicación JSON
