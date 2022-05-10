@@ -14,15 +14,19 @@
     </p>
   </mat-card-content>
   <mat-card-actions>
-    <button mat-button color="warn" [routerLink]="['/heroes', heroe.id]">
-      Leer mas...
+    <button mat-raised-button color="warn" [routerLink]="['/heroes', heroe.id]">
+      Leer <mat-icon class="material-icons">arrow_forward_ios</mat-icon>
     </button>
     <button
-      mat-button
-      color="info"
+      mat-raised-button
+      color="primary"
       [routerLink]="['/heroes/editar/', heroe.id]"
     >
-      Editar
+      Editar <mat-icon class="material-icons">update</mat-icon>
     </button>
   </mat-card-actions>
 </mat-card>
+
+
+
+

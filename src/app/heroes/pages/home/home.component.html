@@ -23,7 +23,11 @@
       <mat-icon>menu</mat-icon>
     </button>
     <span class="spacer"></span>
-    <button mat-button><mat-icon>logout</mat-icon>Logout</button>
+    <span>Bienvenido : {{ auth.usuario }} </span>
+    <span class="spacer"></span>
+    <button mat-raised-button (click)="logout()">
+      <mat-icon>logout</mat-icon> Logout
+    </button>
   </mat-toolbar>
   <div class="container">
     <router-outlet></router-outlet>
